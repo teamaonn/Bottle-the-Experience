@@ -9,17 +9,3 @@ Turns vanilla glass bottles and loose XP into vanilla Bottle o' Enchanting items
 - No custom bottles, blocks, hoppers, recipes, or textures.
 
 Using raw XP points keeps the cost predictable and avoids level-scaling weirdness.
-
-## Build
-
-Use Java 25.
-
-```bash
-C:\Gradle\bin\gradle.bat build
-```
-
-The jar will be in:
-
-```text
-build/libs/
-```
