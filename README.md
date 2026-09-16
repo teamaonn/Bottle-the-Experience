@@ -1,4 +1,4 @@
-# XP Bottler Fabric Mod for Minecraft 26.2
+# XP Bottler Fabric Mod for Minecraft 26.3
 
 Turns vanilla glass bottles and loose XP into vanilla Bottle o' Enchanting items.
 
