@@ -1,5 +1,6 @@
 package com.joshua.xpbottler;
 
+import net.minecraft.util.Prediction;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -20,7 +21,7 @@ public final class BottleUtil {
 
         heldStack.shrink(1);
         if (!player.addItem(replacementStack)) {
-            player.drop(replacementStack, false);
+            player.drop(replacementStack, false, Prediction.SERVER_ONLY);
         }
     }
 }
